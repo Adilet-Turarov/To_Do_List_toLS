@@ -1,0 +1,183 @@
+body {
+    background-image: url('../img/Mountains_Italy_Lake_Boats_Marinas_Lago_di_Braies_581849_2560x1918.jpg');
+    background-size: 100%;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+.container{
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.header {
+    display: block;
+    width: 600px;
+    margin: 20px auto 0;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 20px 16px 30px;
+}
+
+ul {
+    margin: 5px 0;
+    padding: 0;
+}
+
+li * {
+    float: left;
+}
+
+li, h3 {
+    clear: both;
+    list-style: none;
+}
+
+input, button {
+    outline: none;
+}
+
+button {
+    background: none;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+    float: right;
+    margin: 8px auto;
+}
+
+button:hover {
+    color: rgb(238, 189, 84);
+}
+
+#btn:hover {
+    border-radius: 6px;
+    border: 1px solid rgb(238, 189, 84);
+}
+
+#btn {
+    float: right;
+    padding: 10px;
+    margin-top: 0;
+    border: 1px solid #ffffff;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 10px 0;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+h1{
+    color: white;
+    text-align: center;
+    display: block;
+    font-family: serif;
+    padding-top: 10px;
+    font-size: 65px;
+}
+input[type="text"] {
+    margin: 1px 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    font-family: sans-serif;
+    color: #888;
+}
+
+input[type="text"]:focus {
+    color: black;
+}
+
+label[for='btn'] {
+    display: block;
+    margin: 0 0 20px;
+}
+
+input#inp {
+    float: left;
+    width: 487px;
+}
+
+p > button:hover {
+    color: #0FC57C;
+}
+
+li {
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+}
+
+li > input[type="checkbox"] {
+    margin: 0 10px;
+    position: relative;
+    top: 15px;
+    transform: scale(1.5);
+}
+
+li > label {
+    font-size: 18px;
+    line-height: 40px;
+    width: 237px;
+    padding: 1px 0 0 11px
+}
+
+li > input[type="text"] {
+    width: 457px;
+}
+
+li > .delete:hover {
+    color: #CF2323;
+}
+
+#completed label, #completed button {
+    text-decoration: line-through;
+    color: lightgray;
+}
+
+ul li input[type=text] {
+    display: none;
+}
+
+ul li.editMode input[type=text] {
+    display: block;
+}
+
+ul li.editMode label {
+    display: none;
+}
+
+button.checkbox {
+    float: left;
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v32/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+}

@@ -65,7 +65,7 @@ function editTasks(){
     } else{
         input.value = label.innerText;
         editBtn.className = "material-icons save";
-        editBtn.innerHTML = "<i class='material-icons'>save</i>"
+        editBtn.innerHTML = '<i class="material-icons">save</i>'
     }
     item.classList.toggle('editMode')
     setToLocalStorage()
@@ -82,7 +82,7 @@ function completed(){
     let item = this.parentNode;
     let checkbox = item.querySelector('button.checkbox');
     checkbox.className = "material-icons checkbox";
-    checkbox.innerHTML = "<i class='material-icons'>check_box</i>"
+    checkbox.innerHTML = '<i class="material-icons">check_box</i>'
     completedTasks.appendChild(item);
     bindTaskEvent(item, addedTask)
     setToLocalStorage();
